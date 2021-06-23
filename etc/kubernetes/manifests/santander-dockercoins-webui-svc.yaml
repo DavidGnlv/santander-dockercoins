@@ -1,10 +1,10 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: rng
+  name: webui
 spec:
   selector:
-    app: santander-dockercoins-rng
+    app: santander-dockercoins-webui
   ports:
     - protocol: TCP
       port: 8080
